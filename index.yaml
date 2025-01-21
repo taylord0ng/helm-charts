@@ -52261,6 +52261,31 @@ entries:
     version: 0.1.0
   prometheus-rabbitmq-exporter:
   - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2025-01-21T19:09:35.197749117Z"
+    description: Rabbitmq metrics exporter for prometheus
+    digest: e935b3abfd5d5ee3de9ff0efc2e0f417c7258c45381aee968ce5680974e5ac93
+    home: https://github.com/kbudde/rabbitmq_exporter
+    maintainers:
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+      url: https://github.com/desaintmartin
+    - email: abhishekbhardwaj510@gmail.com
+      name: iamabhishek-dubey
+      url: https://github.com/iamabhishek-dubey
+    - email: juan.chimienti@gmail.com
+      name: juanchimienti
+      url: https://github.com/juanchimienti
+    - email: monotek23@gmail.com
+      name: monotek
+      url: https://github.com/monotek
+    name: prometheus-rabbitmq-exporter
+    sources:
+    - https://github.com/kbudde/rabbitmq_exporter
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-rabbitmq-exporter-2.0.0/prometheus-rabbitmq-exporter-2.0.0.tgz
+    version: 2.0.0
+  - apiVersion: v1
     appVersion: v0.29.0
     created: "2025-01-18T13:14:54.798550465Z"
     description: Rabbitmq metrics exporter for prometheus
@@ -54890,4 +54915,4 @@ entries:
     urls:
     - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-01-21T13:09:49.790768544Z"
+generated: "2025-01-21T19:09:35.201628662Z"
