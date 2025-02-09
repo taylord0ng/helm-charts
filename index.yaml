@@ -20522,6 +20522,39 @@ entries:
         - name: Chart Source
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
+    appVersion: 2.15.0
+    created: "2025-02-09T01:09:31.26322797Z"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: c2c5694111a83ccf7dc07584655056ada1e1d6a9fb07910275d0b0555118955e
+    home: https://github.com/kubernetes/kube-state-metrics/
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    maintainers:
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+      url: https://github.com/tariq1890
+    - email: manuel@rueg.eu
+      name: mrueg
+      url: https://github.com/mrueg
+    - email: david@0xdc.me
+      name: dotdc
+      url: https://github.com/dotdc
+    name: kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics/
+    type: application
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/kube-state-metrics-5.30.0/kube-state-metrics-5.30.0.tgz
+    version: 5.30.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
     appVersion: 2.14.0
     created: "2025-01-30T07:09:38.162673574Z"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
@@ -56181,4 +56214,4 @@ entries:
     urls:
     - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-02-07T19:09:36.12637624Z"
+generated: "2025-02-09T01:09:31.267561537Z"
