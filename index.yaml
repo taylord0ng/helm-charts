@@ -55464,6 +55464,32 @@ entries:
     version: 0.1.0
   prometheus-snmp-exporter:
   - apiVersion: v1
+    appVersion: v0.28.0
+    created: "2025-02-16T13:09:32.815069864Z"
+    description: Prometheus SNMP Exporter
+    digest: bf01ab7aab341f68f0f4badf5f6d67c5a378983f9c319340003fc6796fafbeda
+    home: https://github.com/prometheus/snmp_exporter
+    keywords:
+    - prometheus
+    - snmp
+    - monitoring
+    maintainers:
+    - email: maxime@root314.com
+      name: miouge1
+      url: https://github.com/miouge1
+    - email: github@xiu.io
+      name: xiu
+      url: https://github.com/xiu
+    - email: walker.thomas.p@gmail.com
+      name: walker-tom
+      url: https://github.com/walker-tom
+    name: prometheus-snmp-exporter
+    sources:
+    - https://github.com/prometheus/snmp_exporter
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-snmp-exporter-7.0.0/prometheus-snmp-exporter-7.0.0.tgz
+    version: 7.0.0
+  - apiVersion: v1
     appVersion: v0.27.0
     created: "2025-01-18T13:14:55.314379212Z"
     description: Prometheus SNMP Exporter
@@ -56803,4 +56829,4 @@ entries:
     urls:
     - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-02-15T19:09:46.544030445Z"
+generated: "2025-02-16T13:09:32.818264318Z"
