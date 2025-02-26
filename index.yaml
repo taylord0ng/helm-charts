@@ -8,6 +8,36 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: v0.28.0
+    created: "2025-02-26T19:09:45.778281706Z"
+    description: The Alertmanager handles alerts sent by client applications such
+      as the Prometheus server.
+    digest: 708b791ef604e9a28ae2ce90c44be2b0428d60eb0f445a78a5c3e5fab24311ff
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - monitoring
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: monotek23@gmail.com
+      name: monotek
+      url: https://github.com/monotek
+    - email: naseem@transit.app
+      name: naseemkullah
+      url: https://github.com/naseemkullah
+    name: alertmanager
+    sources:
+    - https://github.com/prometheus/alertmanager
+    type: application
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/alertmanager-1.15.1/alertmanager-1.15.1.tgz
+    version: 1.15.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: v0.28.0
     created: "2025-02-14T20:05:26.795780675Z"
     description: The Alertmanager handles alerts sent by client applications such
       as the Prometheus server.
@@ -38796,6 +38826,25 @@ entries:
     version: 1.0.0
   prometheus-mysql-exporter:
   - apiVersion: v1
+    appVersion: v0.17.1
+    created: "2025-02-26T19:09:45.909545633Z"
+    description: A Helm chart for prometheus mysql exporter with cloudsqlproxy
+    digest: 90e0daf29ee201f22f1658022e46547aa727c1de74d1c327185d80c3e66d5053
+    home: https://github.com/prometheus/mysqld_exporter
+    maintainers:
+    - email: juan.chimienti@gmail.com
+      name: juanchimienti
+      url: https://github.com/juanchimienti
+    - email: monotek23@gmail.com
+      name: monotek
+      url: https://github.com/monotek
+    name: prometheus-mysql-exporter
+    sources:
+    - https://github.com/prometheus/mysqld_exporter
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-mysql-exporter-2.9.0/prometheus-mysql-exporter-2.9.0.tgz
+    version: 2.9.0
+  - apiVersion: v1
     appVersion: v0.16.0
     created: "2025-01-18T13:14:52.549806281Z"
     description: A Helm chart for prometheus mysql exporter with cloudsqlproxy
@@ -57840,4 +57889,4 @@ entries:
     urls:
     - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-02-26T07:09:33.337216168Z"
+generated: "2025-02-26T19:09:45.913645264Z"
