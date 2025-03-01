@@ -21608,6 +21608,39 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: 2.15.0
+    created: "2025-03-01T19:09:38.626161826Z"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: 6fd87d77ad1b7b803ca7b5810f7561f9cfed244eb0ca8005e887fafbdc26d2ce
+    home: https://github.com/kubernetes/kube-state-metrics/
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    maintainers:
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+      url: https://github.com/tariq1890
+    - email: manuel@rueg.eu
+      name: mrueg
+      url: https://github.com/mrueg
+    - email: david@0xdc.me
+      name: dotdc
+      url: https://github.com/dotdc
+    name: kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics/
+    type: application
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/kube-state-metrics-5.30.1/kube-state-metrics-5.30.1.tgz
+    version: 5.30.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: 2.15.0
     created: "2025-02-09T01:09:31.26322797Z"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: c2c5694111a83ccf7dc07584655056ada1e1d6a9fb07910275d0b0555118955e
@@ -41768,6 +41801,28 @@ entries:
   prometheus-opencost-exporter:
   - apiVersion: v2
     appVersion: 1.108.0
+    created: "2025-03-01T19:09:38.832693426Z"
+    deprecated: true
+    description: Prometheus OpenCost Exporter
+    digest: 730e674e0699ae0cb16e627279705c0e36a435691e9a5b3b1422e3baa50d168a
+    home: https://github.com/opencost/opencost
+    keywords:
+    - opencost
+    - prometheus
+    - exporter
+    maintainers:
+    - email: mattray@kubecost.com
+      name: mattray
+      url: https://github.com/mattray
+    name: prometheus-opencost-exporter
+    sources:
+    - https://github.com/prometheus-community/opencost_exporter
+    type: application
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-opencost-exporter-0.1.2/prometheus-opencost-exporter-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.108.0
     created: "2025-01-18T13:14:53.351118296Z"
     description: Prometheus OpenCost Exporter
     digest: 6317aac94ca4d06c021fcf37febb8dbdca9a869a206a691e35162c87e77c2b87
@@ -56807,6 +56862,29 @@ entries:
   prometheus-snmp-exporter:
   - apiVersion: v1
     appVersion: v0.28.0
+    created: "2025-03-01T19:09:38.998881853Z"
+    description: Prometheus SNMP Exporter
+    digest: 1f5f8683fb39937c6cb5c13870b0cc315bccb555370a5da6010a3e18f9f2298e
+    home: https://github.com/prometheus/snmp_exporter
+    keywords:
+    - prometheus
+    - snmp
+    - monitoring
+    maintainers:
+    - email: github@xiu.io
+      name: xiu
+      url: https://github.com/xiu
+    - email: walker.thomas.p@gmail.com
+      name: walker-tom
+      url: https://github.com/walker-tom
+    name: prometheus-snmp-exporter
+    sources:
+    - https://github.com/prometheus/snmp_exporter
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-snmp-exporter-8.0.0/prometheus-snmp-exporter-8.0.0.tgz
+    version: 8.0.0
+  - apiVersion: v1
+    appVersion: v0.28.0
     created: "2025-03-01T13:09:38.664173567Z"
     description: Prometheus SNMP Exporter
     digest: c0601bf23f683291d4b637a6b20231651552a5d75d821dd579cceb331dc53dd4
@@ -58306,4 +58384,4 @@ entries:
     urls:
     - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-03-01T13:09:38.667704233Z"
+generated: "2025-03-01T19:09:39.002547186Z"
