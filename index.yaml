@@ -835,6 +835,85 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: v0.80.1
+    created: "2025-03-03T13:09:59.451935942Z"
+    dependencies:
+    - condition: crds.enabled
+      name: crds
+      repository: ""
+      version: 0.0.0
+    - condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.30.*
+    - condition: nodeExporter.enabled
+      name: prometheus-node-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.44.*
+    - condition: grafana.enabled
+      name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 8.10.*
+    - condition: windowsMonitoring.enabled
+      name: prometheus-windows-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 0.9.*
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
+      and Prometheus rules combined with documentation and scripts to provide easy
+      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
+      Prometheus Operator.
+    digest: af328f7594b5a76e9ea40e3bc2258f2fe066474c4e5ab14b1fbae3c1ab2a9d58
+    home: https://github.com/prometheus-operator/kube-prometheus
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - operator
+    - prometheus
+    - kube-prometheus
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: andrew@quadcorps.co.uk
+      name: andrewgkew
+      url: https://github.com/andrewgkew
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: github.gkarthiks@gmail.com
+      name: gkarthiks
+      url: https://github.com/gkarthiks
+    - email: kube-prometheus-stack@sisti.pt
+      name: GMartinez-Sisti
+      url: https://github.com/GMartinez-Sisti
+    - email: github@jkroepke.de
+      name: jkroepke
+      url: https://github.com/jkroepke
+    - email: scott@r6by.com
+      name: scottrigby
+      url: https://github.com/scottrigby
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+      url: https://github.com/Xtigyro
+    - email: quentin.bisson@gmail.com
+      name: QuentinBisson
+      url: https://github.com/QuentinBisson
+    name: kube-prometheus-stack
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/prometheus-operator/kube-prometheus
+    type: application
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/kube-prometheus-stack-69.7.1/kube-prometheus-stack-69.7.1.tgz
+    version: 69.7.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus-operator/kube-prometheus
+        - name: Upgrade Process
+          url: https://github.com/prometheus-community/helm-charts/blob/main/charts/kube-prometheus-stack/README.md#upgrading-chart
+      artifacthub.io/operator: "true"
+    apiVersion: v2
+    appVersion: v0.80.1
     created: "2025-02-28T01:09:55.213394371Z"
     dependencies:
     - condition: crds.enabled
@@ -52901,6 +52980,39 @@ entries:
         - name: rpahli
           email: pahli88@googlemail.com
     apiVersion: v2
+    appVersion: v0.2.1
+    created: "2025-03-03T13:09:59.634369296Z"
+    description: A Helm chart for Prometheus Pingdom Exporter
+    digest: 80524c50b22aa980181942e4402b47e12638cab396b9209bbe52321afe003744
+    home: https://github.com/giantswarm/prometheus-pingdom-exporter
+    icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
+    keywords:
+    - prometheus
+    - pingdom
+    maintainers:
+    - email: monotek23@gmail.com
+      name: monotek
+      url: https://github.com/monotek
+    - email: pahli88@googlemail.com
+      name: rpahli
+      url: https://github.com/rpahli
+    name: prometheus-pingdom-exporter
+    sources:
+    - https://github.com/monotek/pingdom-exporter
+    - https://github.com/prometheus-community/helm-charts
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-pingdom-exporter-3.0.2/prometheus-pingdom-exporter-3.0.2.tgz
+    version: 3.0.2
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+      artifacthub.io/maintainers: |
+        - name: monotek
+          email: monotek23@gmail.com
+        - name: rpahli
+          email: pahli88@googlemail.com
+    apiVersion: v2
     appVersion: v0.2.0
     created: "2025-01-22T19:09:37.155488247Z"
     description: A Helm chart for Prometheus Pingdom Exporter
@@ -58415,4 +58527,4 @@ entries:
     urls:
     - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-03-02T13:09:32.918489839Z"
+generated: "2025-03-03T13:09:59.637458212Z"
