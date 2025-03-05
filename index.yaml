@@ -53192,6 +53192,39 @@ entries:
         - name: rpahli
           email: pahli88@googlemail.com
     apiVersion: v2
+    appVersion: v0.2.2
+    created: "2025-03-05T19:09:35.888719714Z"
+    description: A Helm chart for Prometheus Pingdom Exporter
+    digest: de8ea863ba96eba993a7bb1df71993363e7e26a4e6091a71f3fa70f121c51e99
+    home: https://github.com/kokuwaio/pingdom-exporter
+    icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
+    keywords:
+    - prometheus
+    - pingdom
+    maintainers:
+    - email: monotek23@gmail.com
+      name: monotek
+      url: https://github.com/monotek
+    - email: pahli88@googlemail.com
+      name: rpahli
+      url: https://github.com/rpahli
+    name: prometheus-pingdom-exporter
+    sources:
+    - https://github.com/kokuwaio/pingdom-exporter
+    - https://github.com/prometheus-community/helm-charts
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-pingdom-exporter-3.0.3/prometheus-pingdom-exporter-3.0.3.tgz
+    version: 3.0.3
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+      artifacthub.io/maintainers: |
+        - name: monotek
+          email: monotek23@gmail.com
+        - name: rpahli
+          email: pahli88@googlemail.com
+    apiVersion: v2
     appVersion: v0.2.1
     created: "2025-03-03T13:09:59.634369296Z"
     description: A Helm chart for Prometheus Pingdom Exporter
@@ -58741,6 +58774,33 @@ entries:
   prometheus-yet-another-cloudwatch-exporter:
   - apiVersion: v2
     appVersion: v0.62.1
+    created: "2025-03-05T19:09:36.010017726Z"
+    description: Yace - Yet Another CloudWatch Exporter
+    digest: 911d66a7c516a171a8bdb2176ac22eb2f5f0acac96b81adf15fd4efae21be5b2
+    home: https://github.com/prometheus-community/helm-charts
+    keywords:
+    - aws
+    - cloudwatch
+    - prometheus
+    - exporter
+    - yet-another-cloudwatch-exporter
+    - yace
+    maintainers:
+    - email: cristian.greco@grafana.com
+      name: cristiangreco
+      url: https://github.com/cristiangreco
+    - email: info@thomas-peitz.de
+      name: thomaspeitz
+      url: https://github.com/thomaspeitz
+    name: prometheus-yet-another-cloudwatch-exporter
+    sources:
+    - https://github.com/prometheus-community/yet-another-cloudwatch-exporter
+    type: application
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.5/prometheus-yet-another-cloudwatch-exporter-0.39.5.tgz
+    version: 0.39.5
+  - apiVersion: v2
+    appVersion: v0.62.1
     created: "2025-03-04T01:09:37.743853276Z"
     description: Yace - Yet Another CloudWatch Exporter
     digest: be01f6b3d0333fe6cbe94797eaf750a4f93c47c991d45ee4b3b22538c26a2cab
@@ -58793,4 +58853,4 @@ entries:
     urls:
     - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-03-05T13:09:51.788586358Z"
+generated: "2025-03-05T19:09:36.012189622Z"
