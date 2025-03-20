@@ -53955,6 +53955,39 @@ entries:
         - name: rpahli
           email: pahli88@googlemail.com
     apiVersion: v2
+    appVersion: v0.3.0
+    created: "2025-03-20T13:09:34.995142751Z"
+    description: A Helm chart for Prometheus Pingdom Exporter
+    digest: 63561c57f2bc3ba2371fff5d10b5c32e3f2267bf2e308932555f0b447ef13763
+    home: https://github.com/kokuwaio/pingdom-exporter
+    icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
+    keywords:
+    - prometheus
+    - pingdom
+    maintainers:
+    - email: monotek23@gmail.com
+      name: monotek
+      url: https://github.com/monotek
+    - email: pahli88@googlemail.com
+      name: rpahli
+      url: https://github.com/rpahli
+    name: prometheus-pingdom-exporter
+    sources:
+    - https://github.com/kokuwaio/pingdom-exporter
+    - https://github.com/prometheus-community/helm-charts
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-pingdom-exporter-3.1.0/prometheus-pingdom-exporter-3.1.0.tgz
+    version: 3.1.0
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+      artifacthub.io/maintainers: |
+        - name: monotek
+          email: monotek23@gmail.com
+        - name: rpahli
+          email: pahli88@googlemail.com
+    apiVersion: v2
     appVersion: v0.2.2
     created: "2025-03-05T19:09:35.888719714Z"
     description: A Helm chart for Prometheus Pingdom Exporter
@@ -59661,4 +59694,4 @@ entries:
     urls:
     - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-03-19T19:09:56.739092947Z"
+generated: "2025-03-20T13:09:34.997462683Z"
