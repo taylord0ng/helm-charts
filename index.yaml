@@ -40603,6 +40603,30 @@ entries:
     version: 0.1.2
   prometheus-mongodb-exporter:
   - apiVersion: v2
+    appVersion: 0.44.0
+    created: "2025-04-07T19:09:55.74740062Z"
+    description: A Prometheus exporter for MongoDB metrics
+    digest: a0a98eb236e5165a92aea07b5d442f9675562ff216a630424441cf7008aa324f
+    home: https://github.com/percona/mongodb_exporter
+    keywords:
+    - exporter
+    - metrics
+    - mongodb
+    - prometheus
+    maintainers:
+    - email: ssheehy@firescope.com
+      name: steven-sheehy
+      url: https://github.com/steven-sheehy
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-mongodb-exporter
+    sources:
+    - https://github.com/percona/mongodb_exporter
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-mongodb-exporter-3.12.0/prometheus-mongodb-exporter-3.12.0.tgz
+    version: 3.12.0
+  - apiVersion: v2
     appVersion: 0.43.1
     created: "2025-04-07T01:09:36.527761212Z"
     description: A Prometheus exporter for MongoDB metrics
@@ -42219,6 +42243,38 @@ entries:
     - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-nginx-exporter-1.0.0/prometheus-nginx-exporter-1.0.0.tgz
     version: 1.0.0
   prometheus-node-exporter:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: 1.9.1
+    created: "2025-04-07T19:09:55.932409027Z"
+    description: A Helm chart for prometheus node-exporter
+    digest: b170e49497b28e99937945a854dd94dc8c84c6c1e910efa3c4ed66bf3c5185ea
+    home: https://github.com/prometheus/node_exporter/
+    keywords:
+    - node-exporter
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+      url: https://github.com/zanhsieh
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-node-exporter
+    sources:
+    - https://github.com/prometheus/node_exporter/
+    type: application
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-node-exporter-4.45.2/prometheus-node-exporter-4.45.2.tgz
+    version: 4.45.2
   - annotations:
       artifacthub.io/license: Apache-2.0
       artifacthub.io/links: |
@@ -61084,4 +61140,4 @@ entries:
     urls:
     - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-04-07T13:09:58.776642436Z"
+generated: "2025-04-07T19:09:55.935191904Z"
