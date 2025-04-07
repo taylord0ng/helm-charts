@@ -42114,6 +42114,38 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: 1.9.0
+    created: "2025-04-07T07:09:30.442510869Z"
+    description: A Helm chart for prometheus node-exporter
+    digest: 5816169565cf4ef0bf0eca9087901636ffa1edde60a9e87adf1585336fd0ad08
+    home: https://github.com/prometheus/node_exporter/
+    keywords:
+    - node-exporter
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+      url: https://github.com/zanhsieh
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-node-exporter
+    sources:
+    - https://github.com/prometheus/node_exporter/
+    type: application
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-node-exporter-4.45.1/prometheus-node-exporter-4.45.1.tgz
+    version: 4.45.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: 1.9.0
     created: "2025-03-21T01:10:01.380548608Z"
     description: A Helm chart for prometheus node-exporter
     digest: 7b7420bb57db8154132155bcec53e786204949cc92fbf0a886299923caa3ef5e
@@ -60940,4 +60972,4 @@ entries:
     urls:
     - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-04-07T01:09:36.691024571Z"
+generated: "2025-04-07T07:09:30.444848122Z"
