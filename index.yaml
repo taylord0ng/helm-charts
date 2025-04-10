@@ -22962,6 +22962,39 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: 2.15.0
+    created: "2025-04-10T19:09:37.40824895Z"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: 3ff49b6e3359bb145b08efb93019e06f32d474d65cf98b40096e7986c6934ec7
+    home: https://github.com/kubernetes/kube-state-metrics/
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    maintainers:
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+      url: https://github.com/tariq1890
+    - email: manuel@rueg.eu
+      name: mrueg
+      url: https://github.com/mrueg
+    - email: david@0xdc.me
+      name: dotdc
+      url: https://github.com/dotdc
+    name: kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics/
+    type: application
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/kube-state-metrics-5.32.0/kube-state-metrics-5.32.0.tgz
+    version: 5.32.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: 2.15.0
     created: "2025-04-07T13:09:58.772927662Z"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: 2fa67069cbe6c4af770c704b09ecb9651f42a16f402680f4a09377f76a0b872c
@@ -33647,6 +33680,33 @@ entries:
     - https://prometheus-community.github.io/helm-charts/prometheus-1.3.1.tgz
     version: 1.3.1
   prometheus-adapter:
+  - apiVersion: v1
+    appVersion: v0.12.0
+    created: "2025-04-10T19:09:37.529029614Z"
+    description: A Helm chart for k8s prometheus adapter
+    digest: dfd875944c368a5ec0f8b2c81dfab1d2def7e9970b6d4c3fd304c06d2842dd4b
+    home: https://github.com/kubernetes-sigs/prometheus-adapter
+    keywords:
+    - hpa
+    - metrics
+    - prometheus
+    - adapter
+    maintainers:
+    - email: mattias.gees@jetstack.io
+      name: mattiasgees
+      url: https://github.com/mattiasgees
+    - name: steven-sheehy
+      url: https://github.com/steven-sheehy
+    - email: hfernandez@mesosphere.com
+      name: hectorj2f
+      url: https://github.com/hectorj2f
+    name: prometheus-adapter
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://github.com/kubernetes-sigs/prometheus-adapter
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-adapter-4.14.1/prometheus-adapter-4.14.1.tgz
+    version: 4.14.1
   - apiVersion: v1
     appVersion: v0.12.0
     created: "2025-03-05T02:04:00.360066449Z"
@@ -61202,4 +61262,4 @@ entries:
     urls:
     - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-04-08T13:09:36.001287771Z"
+generated: "2025-04-10T19:09:37.531902224Z"
