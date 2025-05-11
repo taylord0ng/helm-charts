@@ -44133,6 +44133,46 @@ entries:
           email: nicolas.lamirault@gmail.com
     apiVersion: v2
     appVersion: 1.4.2
+    created: "2025-05-11T07:09:45.040019673Z"
+    dependencies:
+    - condition: nginx.enabled
+      name: nginx
+      repository: https://charts.bitnami.com/bitnami
+      version: 20.0.1
+    description: A Helm chart for NGINX Prometheus Exporter
+    digest: 384cfbba10a9c908e05899d949b66e55d87f111df7b07ed46f4c1822cf86fa06
+    home: https://github.com/nginxinc/nginx-prometheus-exporter
+    icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
+    keywords:
+    - prometheus
+    - nginx
+    - monitoring
+    maintainers:
+    - email: nicolas.lamirault@gmail.com
+      name: nlamirault
+      url: https://github.com/nlamirault
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-nginx-exporter
+    sources:
+    - https://github.com/nginxinc/nginx-prometheus-exporter
+    - https://github.com/prometheus-community/helm-charts
+    type: application
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-nginx-exporter-1.4.1/prometheus-nginx-exporter-1.4.1.tgz
+    version: 1.4.1
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: NGINX Prometheus Exporter
+          url: https://github.com/nginxinc/nginx-prometheus-exporter
+      artifacthub.io/maintainers: |
+        - name: nlamirault
+          email: nicolas.lamirault@gmail.com
+    apiVersion: v2
+    appVersion: 1.4.2
     created: "2025-05-02T19:10:06.562382788Z"
     dependencies:
     - condition: nginx.enabled
@@ -57559,6 +57599,35 @@ entries:
   prometheus-pgbouncer-exporter:
   - apiVersion: v2
     appVersion: v0.10.2
+    created: "2025-05-11T07:09:45.147864421Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~16.7.0
+    description: A Helm chart for prometheus pgbouncer-exporter
+    digest: 03ecaf8d7f5051c4bc01cf34b95f36c15626f7346a120ff91e97ce1ace921c4e
+    home: https://github.com/prometheus-community/pgbouncer_exporter
+    keywords:
+    - pgbouncer
+    - prometheus
+    - exporter
+    maintainers:
+    - email: stewart.shea@gmail.com
+      name: stewartshea
+      url: https://github.com/stewartshea
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-pgbouncer-exporter
+    sources:
+    - https://github.com/prometheus-community/pgbouncer_exporter
+    type: application
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-pgbouncer-exporter-0.7.1/prometheus-pgbouncer-exporter-0.7.1.tgz
+    version: 0.7.1
+  - apiVersion: v2
+    appVersion: v0.10.2
     created: "2025-04-08T01:09:42.885437848Z"
     dependencies:
     - condition: postgresql.enabled
@@ -64031,4 +64100,4 @@ entries:
     urls:
     - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-05-10T13:09:37.245511841Z"
+generated: "2025-05-11T07:09:45.153199258Z"
