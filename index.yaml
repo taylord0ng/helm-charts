@@ -8,6 +8,36 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: v0.28.1
+    created: "2025-07-17T02:03:30.124963397Z"
+    description: The Alertmanager handles alerts sent by client applications such
+      as the Prometheus server.
+    digest: fce1ba3253f3d4dcef8dac914dfef4ec0b05602a7e1fe4780bb1a545076ff8ff
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - monitoring
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - email: monotek23@gmail.com
+      name: monotek
+      url: https://github.com/monotek
+    - email: naseem@transit.app
+      name: naseemkullah
+      url: https://github.com/naseemkullah
+    name: alertmanager
+    sources:
+    - https://github.com/prometheus/alertmanager
+    type: application
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/alertmanager-1.23.0/alertmanager-1.23.0.tgz
+    version: 1.23.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: v0.28.1
     created: "2025-07-15T01:11:04.753271837Z"
     description: The Alertmanager handles alerts sent by client applications such
       as the Prometheus server.
@@ -1074,6 +1104,33 @@ entries:
     - https://github.com/prometheus-community/helm-charts/releases/download/alertmanager-0.1.0/alertmanager-0.1.0.tgz
     version: 0.1.0
   alertmanager-snmp-notifier:
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: v2.0.0
+    created: "2025-07-17T02:03:30.234571927Z"
+    description: The SNMP Notifier handles alerts coming from Prometheus Alertmanager
+      and relay them as SNMP traps.
+    digest: 6bab668b914d0866a5c0bfabcdcbe0e16a106ffd1a1d0d409688b26779bfa145
+    home: https://github.com/maxwo/snmp_notifier
+    keywords:
+    - prometheus
+    - snmp
+    - monitoring
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: maxime.wojtczak.pub@icloud.com
+      name: maxwo
+      url: https://github.com/maxwo
+    name: alertmanager-snmp-notifier
+    sources:
+    - https://github.com/maxwo/snmp_notifier
+    type: application
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/alertmanager-snmp-notifier-2.0.0/alertmanager-snmp-notifier-2.0.0.tgz
+    version: 2.0.0
   - annotations:
       artifacthub.io/links: |
         - name: Chart Source
@@ -38337,6 +38394,38 @@ entries:
   prometheus-blackbox-exporter:
   - apiVersion: v2
     appVersion: v0.26.0
+    created: "2025-07-17T02:03:30.352437226Z"
+    description: Prometheus Blackbox Exporter
+    digest: ae9dd270617820e4c3acc73d55aec1e56275eba2b78dfce57bf8e4e48bf71f26
+    home: https://github.com/prometheus/blackbox_exporter
+    keywords:
+    - prometheus
+    - blackbox
+    - monitoring
+    kubeVersion: '>=1.21.0-0'
+    maintainers:
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+      url: https://github.com/desaintmartin
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: me@sota.sh
+      name: rsotnychenko
+      url: https://github.com/rsotnychenko
+    - email: monotek23@gmail.com
+      name: monotek
+      url: https://github.com/monotek
+    name: prometheus-blackbox-exporter
+    sources:
+    - https://github.com/prometheus/blackbox_exporter
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-blackbox-exporter
+    type: application
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-blackbox-exporter-11.1.0/prometheus-blackbox-exporter-11.1.0.tgz
+    version: 11.1.0
+  - apiVersion: v2
+    appVersion: v0.26.0
     created: "2025-07-15T13:09:34.24800463Z"
     description: Prometheus Blackbox Exporter
     digest: 79171cfebf5aa784f4d98564e2797f821b7b73d21cfaa3168439a614b4701938
@@ -66000,4 +66089,4 @@ entries:
     urls:
     - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-07-16T02:10:28.870518992Z"
+generated: "2025-07-17T02:03:30.355649549Z"
