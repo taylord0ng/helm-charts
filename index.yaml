@@ -67029,6 +67029,28 @@ entries:
   prometheus-windows-exporter:
   - apiVersion: v2
     appVersion: 0.31.1
+    created: "2025-07-21T13:09:54.512243363Z"
+    description: A Helm chart for prometheus windows-exporter
+    digest: ac5345a82085270a49581c9c46e2d63fc0a1d644fe88ac5759471253f4074385
+    home: https://github.com/prometheus-community/windows_exporter/
+    keywords:
+    - windows-exporter
+    - windows
+    - prometheus
+    - exporter
+    maintainers:
+    - email: github@jkroepke.de
+      name: Jan-Otto Kröpke
+      url: https://github.com/jkroepke
+    name: prometheus-windows-exporter
+    sources:
+    - https://github.com/prometheus-community/windows_exporter/
+    type: application
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-windows-exporter-0.12.0/prometheus-windows-exporter-0.12.0.tgz
+    version: 0.12.0
+  - apiVersion: v2
+    appVersion: 0.31.1
     created: "2025-07-20T02:03:47.542485443Z"
     description: A Helm chart for prometheus windows-exporter
     digest: 8b8c9a6341f0407a0a6c0aa417d6b5edcde9cd37992f0ba4ef5e2ffbff97bd5a
@@ -67361,4 +67383,4 @@ entries:
     urls:
     - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-07-21T01:09:50.538320562Z"
+generated: "2025-07-21T13:09:54.515442321Z"
