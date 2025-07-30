@@ -44213,6 +44213,25 @@ entries:
     version: 0.1.0
   prometheus-ipmi-exporter:
   - apiVersion: v2
+    appVersion: v1.10.1
+    created: "2025-07-30T19:09:52.227658423Z"
+    description: This is an IPMI exporter for Prometheus.
+    digest: ae8cdbe9225a8835eab3bc4e7f8240acf28ceb34a44ab92899c264eb0567bcb7
+    home: https://github.com/prometheus-community/ipmi_exporter
+    keywords:
+    - metrics
+    - ipmi
+    - monitoring
+    maintainers:
+    - email: f@lex.la
+      name: lexfrei
+      url: https://github.com/lexfrei
+    name: prometheus-ipmi-exporter
+    type: application
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-ipmi-exporter-0.6.2/prometheus-ipmi-exporter-0.6.2.tgz
+    version: 0.6.2
+  - apiVersion: v2
     appVersion: v1.10.0
     created: "2025-02-26T01:55:40.691799617Z"
     description: This is an IPMI exporter for Prometheus.
@@ -46429,6 +46448,29 @@ entries:
     - https://prometheus-community.github.io/helm-charts/prometheus-mysql-exporter-0.1.0.tgz
     version: 0.1.0
   prometheus-nats-exporter:
+  - apiVersion: v1
+    appVersion: 0.17.3
+    created: "2025-07-30T19:09:52.367299939Z"
+    description: A Helm chart for prometheus-nats-exporter
+    digest: e02abfaf816e9059208abc3c23258c80bdccdc30b0d35a2c499e2618a78ac8ef
+    home: https://github.com/nats-io/prometheus-nats-exporter
+    keywords:
+    - nats
+    - prometheus
+    - exporter
+    maintainers:
+    - email: okgolove@markeloff.net
+      name: okgolove
+      url: https://github.com/okgolove
+    - email: carlos@carlosbecker.com
+      name: caarlos0
+      url: https://github.com/caarlos0
+    name: prometheus-nats-exporter
+    sources:
+    - https://github.com/nats-io/prometheus-nats-exporter
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-nats-exporter-2.20.2/prometheus-nats-exporter-2.20.2.tgz
+    version: 2.20.2
   - apiVersion: v1
     appVersion: 0.17.3
     created: "2025-07-27T19:10:16.027970551Z"
@@ -68163,4 +68205,4 @@ entries:
     urls:
     - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-07-30T13:09:51.465291398Z"
+generated: "2025-07-30T19:09:52.370647175Z"
