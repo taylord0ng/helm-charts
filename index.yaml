@@ -47043,6 +47043,46 @@ entries:
           email: nicolas.lamirault@gmail.com
     apiVersion: v2
     appVersion: 1.4.2
+    created: "2025-08-01T07:10:02.79560977Z"
+    dependencies:
+    - condition: nginx.enabled
+      name: nginx
+      repository: https://charts.bitnami.com/bitnami
+      version: 21.1.0
+    description: A Helm chart for NGINX Prometheus Exporter
+    digest: 53d2436528c11b6913ae6ffbac91d16e87008199952e364fdc77ce429357009a
+    home: https://github.com/nginxinc/nginx-prometheus-exporter
+    icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
+    keywords:
+    - prometheus
+    - nginx
+    - monitoring
+    maintainers:
+    - email: nicolas.lamirault@gmail.com
+      name: nlamirault
+      url: https://github.com/nlamirault
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-nginx-exporter
+    sources:
+    - https://github.com/nginxinc/nginx-prometheus-exporter
+    - https://github.com/prometheus-community/helm-charts
+    type: application
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-nginx-exporter-1.11.0/prometheus-nginx-exporter-1.11.0.tgz
+    version: 1.11.0
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: NGINX Prometheus Exporter
+          url: https://github.com/nginxinc/nginx-prometheus-exporter
+      artifacthub.io/maintainers: |
+        - name: nlamirault
+          email: nicolas.lamirault@gmail.com
+    apiVersion: v2
+    appVersion: 1.4.2
     created: "2025-08-01T01:09:59.505591929Z"
     dependencies:
     - condition: nginx.enabled
@@ -65031,6 +65071,29 @@ entries:
   prometheus-redis-exporter:
   - apiVersion: v2
     appVersion: v1.74.0
+    created: "2025-08-01T07:10:02.936170095Z"
+    description: Prometheus exporter for Redis metrics
+    digest: 7c8d394dde048e9d96fdd3bd5e5e24637838f8bd972aa54c68b5b0614b20a308
+    home: https://github.com/oliver006/redis_exporter
+    keywords:
+    - prometheus
+    - redis
+    maintainers:
+    - email: arcadie.condrat@gmail.com
+      name: acondrat
+      url: https://github.com/acondrat
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+      url: https://github.com/zanhsieh
+    name: prometheus-redis-exporter
+    sources:
+    - https://github.com/oliver006/redis_exporter
+    type: application
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-redis-exporter-6.14.0/prometheus-redis-exporter-6.14.0.tgz
+    version: 6.14.0
+  - apiVersion: v2
+    appVersion: v1.74.0
     created: "2025-07-27T19:10:16.201510366Z"
     description: Prometheus exporter for Redis metrics
     digest: ab80e5f6a927868c2c31071a15a75682f6993e1c83e2ce3af56c85e30b1a7ba3
@@ -68339,4 +68402,4 @@ entries:
     urls:
     - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-08-01T01:09:59.508020792Z"
+generated: "2025-08-01T07:10:02.938935598Z"
