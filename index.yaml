@@ -46740,6 +46740,26 @@ entries:
   prometheus-modbus-exporter:
   - apiVersion: v2
     appVersion: 0.4.1
+    created: "2025-08-18T19:09:55.173350272Z"
+    description: A Helm chart for prometheus-modbus-exporter
+    digest: 60abf78011bb3a33a65d843e6b9c3765be1bc08e2388d6d62deb0b79fbdb8ed0
+    keywords:
+    - modbus
+    - modbus_exporter
+    - metric
+    - monitoring
+    - prometheus
+    maintainers:
+    - email: openenergyprojects@gmail.com
+      name: openenergyprojects
+      url: https://github.com/openenergyprojects
+    name: prometheus-modbus-exporter
+    type: application
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-modbus-exporter-0.1.4/prometheus-modbus-exporter-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 0.4.1
     created: "2025-02-28T13:09:32.250637361Z"
     description: A Helm chart for prometheus-modbus-exporter
     digest: a166d6b361c25ce2f09b252d09c2af1977dde36cb4fe9047696371ef154c19cb
@@ -70341,4 +70361,4 @@ entries:
     urls:
     - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-08-18T13:09:56.222110972Z"
+generated: "2025-08-18T19:09:55.17568797Z"
