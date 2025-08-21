@@ -8,6 +8,36 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: v0.28.1
+    created: "2025-08-21T19:09:57.830902516Z"
+    description: The Alertmanager handles alerts sent by client applications such
+      as the Prometheus server.
+    digest: 4c80e5290723d078c6904a35c9de61ba60f2586c9d90f98358b9a7ef46ad4acc
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - monitoring
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - email: monotek23@gmail.com
+      name: monotek
+      url: https://github.com/monotek
+    - email: naseem@transit.app
+      name: naseemkullah
+      url: https://github.com/naseemkullah
+    name: alertmanager
+    sources:
+    - https://github.com/prometheus/alertmanager
+    type: application
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/alertmanager-1.25.0/alertmanager-1.25.0.tgz
+    version: 1.25.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: v0.28.1
     created: "2025-08-11T14:14:44.713426798Z"
     description: The Alertmanager handles alerts sent by client applications such
       as the Prometheus server.
@@ -70484,4 +70514,4 @@ entries:
     urls:
     - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-08-20T13:10:03.821545987Z"
+generated: "2025-08-21T19:09:57.835636579Z"
