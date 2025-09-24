@@ -48391,6 +48391,44 @@ entries:
           url: https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-kafka-exporter
     apiVersion: v2
     appVersion: v1.9.0
+    created: "2025-09-24T01:09:55.619973079Z"
+    dependencies:
+    - condition: kafka.enabled
+      name: kafka
+      repository: https://charts.bitnami.com/bitnami
+      version: 18.5.0
+    description: A Helm chart to export metrics from Kafka in Prometheus format using
+      kafka_exporter from https://github.com/danielqsj/kafka_exporter
+    digest: 5e5ef03ec997a272f83f5eda56afb9288e293a9a51064f8d56265f1a82428875
+    home: https://github.com/danielqsj/kafka_exporter
+    keywords:
+    - prometheus
+    - kafka
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - email: github.gkarthiks@gmail.com
+      name: gkarthiks
+      url: https://github.com/gkarthiks
+    - email: golgoth31@notrenet.com
+      name: golgoth31
+      url: https://github.com/golgoth31
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-kafka-exporter
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/danielqsj/kafka_exporter
+    type: application
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-kafka-exporter-3.0.0/prometheus-kafka-exporter-3.0.0.tgz
+    version: 3.0.0
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-kafka-exporter
+    apiVersion: v2
+    appVersion: v1.9.0
     created: "2025-09-21T13:09:51.77920833Z"
     dependencies:
     - condition: kafka.enabled
@@ -73164,4 +73202,4 @@ entries:
     urls:
     - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-09-23T19:10:04.16798685Z"
+generated: "2025-09-24T01:09:55.62288869Z"
