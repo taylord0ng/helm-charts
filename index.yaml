@@ -70031,6 +70031,29 @@ entries:
     version: 0.1.1
   prometheus-redis-exporter:
   - apiVersion: v2
+    appVersion: v1.78.0
+    created: "2025-10-07T07:09:39.375765664Z"
+    description: Prometheus exporter for Redis metrics
+    digest: 786ee0210656319802c1709c9e3926f46b3d5d842360d9c0d4634df8b94cc165
+    home: https://github.com/oliver006/redis_exporter
+    keywords:
+    - prometheus
+    - redis
+    maintainers:
+    - email: arcadie.condrat@gmail.com
+      name: acondrat
+      url: https://github.com/acondrat
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+      url: https://github.com/zanhsieh
+    name: prometheus-redis-exporter
+    sources:
+    - https://github.com/oliver006/redis_exporter
+    type: application
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-redis-exporter-6.18.0/prometheus-redis-exporter-6.18.0.tgz
+    version: 6.18.0
+  - apiVersion: v2
     appVersion: v1.77.0
     created: "2025-09-12T19:10:19.88179447Z"
     description: Prometheus exporter for Redis metrics
@@ -73694,4 +73717,4 @@ entries:
     urls:
     - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-10-06T19:09:42.580499333Z"
+generated: "2025-10-07T07:09:39.379339149Z"
