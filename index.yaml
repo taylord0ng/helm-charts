@@ -8,6 +8,36 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: v0.28.1
+    created: "2025-10-13T19:09:48.180190298Z"
+    description: The Alertmanager handles alerts sent by client applications such
+      as the Prometheus server.
+    digest: b788b99b69f72588210602600cf24571aece9d2053608a112dc8cb6ef9a9be6b
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - monitoring
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - email: monotek23@gmail.com
+      name: monotek
+      url: https://github.com/monotek
+    - email: naseem@transit.app
+      name: naseemkullah
+      url: https://github.com/naseemkullah
+    name: alertmanager
+    sources:
+    - https://github.com/prometheus/alertmanager
+    type: application
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/alertmanager-1.27.1/alertmanager-1.27.1.tgz
+    version: 1.27.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: v0.28.1
     created: "2025-10-07T19:10:13.261104561Z"
     description: The Alertmanager handles alerts sent by client applications such
       as the Prometheus server.
@@ -43492,6 +43522,38 @@ entries:
   prometheus-blackbox-exporter:
   - apiVersion: v2
     appVersion: v0.27.0
+    created: "2025-10-13T19:09:48.308066976Z"
+    description: Prometheus Blackbox Exporter
+    digest: dfb415f602554e4928ed0318e3f73b168905552315744be5e8c0442aec697aaa
+    home: https://github.com/prometheus/blackbox_exporter
+    keywords:
+    - prometheus
+    - blackbox
+    - monitoring
+    kubeVersion: '>=1.21.0-0'
+    maintainers:
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+      url: https://github.com/desaintmartin
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: me@sota.sh
+      name: rsotnychenko
+      url: https://github.com/rsotnychenko
+    - email: monotek23@gmail.com
+      name: monotek
+      url: https://github.com/monotek
+    name: prometheus-blackbox-exporter
+    sources:
+    - https://github.com/prometheus/blackbox_exporter
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-blackbox-exporter
+    type: application
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-blackbox-exporter-11.4.1/prometheus-blackbox-exporter-11.4.1.tgz
+    version: 11.4.1
+  - apiVersion: v2
+    appVersion: v0.27.0
     created: "2025-10-07T19:10:13.845219682Z"
     description: Prometheus Blackbox Exporter
     digest: 529db36df08d58f4c3ac02ef7eb9c8ac7e082764b69f022f7e177c4fbd40b69b
@@ -66130,6 +66192,52 @@ entries:
         - name: QuentinBisson
           email: quentin.bisson@gmail.com
     apiVersion: v2
+    appVersion: v0.86.1
+    created: "2025-10-13T19:09:48.43843044Z"
+    dependencies:
+    - name: crds
+      repository: ""
+      version: 0.0.0
+    description: 'A Helm chart that collects custom resource definitions (CRDs) from
+      the Prometheus Operator, allowing for seamless integration with GitOps tools '
+    digest: bc1c7b6cdb41efd2e7af24de79267701049b2abeaba819e709d50842371fe2dc
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - prometheus
+    - crds
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: dacamposol@gmail.com
+      name: dacamposol
+      url: https://github.com/dacamposol
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+      url: https://github.com/desaintmartin
+    - email: quentin.bisson@gmail.com
+      name: QuentinBisson
+      url: https://github.com/QuentinBisson
+    - email: github@jkroepke.de
+      name: Jan-Otto Kröpke
+      url: https://github.com/jkroepke
+    name: prometheus-operator-crds
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    type: application
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-operator-crds-24.0.1/prometheus-operator-crds-24.0.1.tgz
+    version: 24.0.1
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+      artifacthub.io/maintainers: |
+        - name: dacamposol
+          email: dacamposol@gmail.com
+        - name: desaintmartin
+          email: cedric@desaintmartin.fr
+        - name: QuentinBisson
+          email: quentin.bisson@gmail.com
+    apiVersion: v2
     appVersion: v0.86.0
     created: "2025-10-08T13:09:51.468310619Z"
     dependencies:
@@ -74413,4 +74521,4 @@ entries:
     urls:
     - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-10-13T13:10:07.193449993Z"
+generated: "2025-10-13T19:09:48.440870954Z"
