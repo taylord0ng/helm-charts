@@ -52289,6 +52289,46 @@ entries:
           email: nicolas.lamirault@gmail.com
     apiVersion: v2
     appVersion: 1.5.1
+    created: "2025-10-20T19:09:55.59168474Z"
+    dependencies:
+    - condition: nginx.enabled
+      name: nginx
+      repository: https://charts.bitnami.com/bitnami
+      version: 22.1.1
+    description: A Helm chart for NGINX Prometheus Exporter
+    digest: fa0585cf02ee0a97c87f90765da5faa9b50e14e293fe0a7484364a26b4e1137c
+    home: https://github.com/nginxinc/nginx-prometheus-exporter
+    icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
+    keywords:
+    - prometheus
+    - nginx
+    - monitoring
+    maintainers:
+    - email: nicolas.lamirault@gmail.com
+      name: nlamirault
+      url: https://github.com/nlamirault
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-nginx-exporter
+    sources:
+    - https://github.com/nginxinc/nginx-prometheus-exporter
+    - https://github.com/prometheus-community/helm-charts
+    type: application
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-nginx-exporter-1.14.0/prometheus-nginx-exporter-1.14.0.tgz
+    version: 1.14.0
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: NGINX Prometheus Exporter
+          url: https://github.com/nginxinc/nginx-prometheus-exporter
+      artifacthub.io/maintainers: |
+        - name: nlamirault
+          email: nicolas.lamirault@gmail.com
+    apiVersion: v2
+    appVersion: 1.5.1
     created: "2025-10-14T19:09:48.964485793Z"
     dependencies:
     - condition: nginx.enabled
@@ -73485,6 +73525,27 @@ entries:
   prometheus-stackdriver-exporter:
   - apiVersion: v1
     appVersion: v0.18.0
+    created: "2025-10-20T19:09:55.794402976Z"
+    description: Stackdriver exporter for Prometheus
+    digest: 100ad04ab10f6a5f9e6e28a60ae3440cf7b624630beb0cbdf9503e3fb207d468
+    home: https://www.stackdriver.com/
+    keywords:
+    - metrics
+    - stackdriver
+    - monitoring
+    maintainers:
+    - email: pahli88@googlemail.com
+      name: rpahli
+      url: https://github.com/rpahli
+    name: prometheus-stackdriver-exporter
+    sources:
+    - https://github.com/prometheus-community/stackdriver_exporter
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-stackdriver-exporter
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-stackdriver-exporter-4.12.2/prometheus-stackdriver-exporter-4.12.2.tgz
+    version: 4.12.2
+  - apiVersion: v1
+    appVersion: v0.18.0
     created: "2025-10-11T19:09:44.149313821Z"
     description: Stackdriver exporter for Prometheus
     digest: 4881ffe5a162381a3b8d13dec892e2f201c2bb13eb4e791a68d638a4366917a1
@@ -75118,4 +75179,4 @@ entries:
     urls:
     - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-10-18T19:09:58.135274817Z"
+generated: "2025-10-20T19:09:55.797011971Z"
