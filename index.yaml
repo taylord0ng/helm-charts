@@ -52729,6 +52729,30 @@ entries:
     version: 0.1.2
   prometheus-mongodb-exporter:
   - apiVersion: v2
+    appVersion: 0.47.2
+    created: "2025-11-27T01:09:46.348398416Z"
+    description: A Prometheus exporter for MongoDB metrics
+    digest: e0eddf47ae8095d7c62a3d7a5084bdf0aeb4ed03e2b94ed734b1d2bec17272fe
+    home: https://github.com/percona/mongodb_exporter
+    keywords:
+    - exporter
+    - metrics
+    - mongodb
+    - prometheus
+    maintainers:
+    - email: ssheehy@firescope.com
+      name: steven-sheehy
+      url: https://github.com/steven-sheehy
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-mongodb-exporter
+    sources:
+    - https://github.com/percona/mongodb_exporter
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-mongodb-exporter-3.15.1/prometheus-mongodb-exporter-3.15.1.tgz
+    version: 3.15.1
+  - apiVersion: v2
     appVersion: 0.47.1
     created: "2025-10-24T01:09:51.048361915Z"
     description: A Prometheus exporter for MongoDB metrics
@@ -54453,6 +54477,46 @@ entries:
     - https://prometheus-community.github.io/helm-charts/prometheus-nats-exporter-1.0.0.tgz
     version: 1.0.0
   prometheus-nginx-exporter:
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: NGINX Prometheus Exporter
+          url: https://github.com/nginxinc/nginx-prometheus-exporter
+      artifacthub.io/maintainers: |
+        - name: nlamirault
+          email: nicolas.lamirault@gmail.com
+    apiVersion: v2
+    appVersion: 1.5.1
+    created: "2025-11-27T01:09:46.511196833Z"
+    dependencies:
+    - condition: nginx.enabled
+      name: nginx
+      repository: https://charts.bitnami.com/bitnami
+      version: 22.3.3
+    description: A Helm chart for NGINX Prometheus Exporter
+    digest: 60b8b684729ce0f7f093422c9d1319255a08dc6a906c2a0c96275abc7b9f60a8
+    home: https://github.com/nginxinc/nginx-prometheus-exporter
+    icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
+    keywords:
+    - prometheus
+    - nginx
+    - monitoring
+    maintainers:
+    - email: nicolas.lamirault@gmail.com
+      name: nlamirault
+      url: https://github.com/nlamirault
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-nginx-exporter
+    sources:
+    - https://github.com/nginxinc/nginx-prometheus-exporter
+    - https://github.com/prometheus-community/helm-charts
+    type: application
+    urls:
+    - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-nginx-exporter-1.16.1/prometheus-nginx-exporter-1.16.1.tgz
+    version: 1.16.1
   - annotations:
       artifacthub.io/links: |
         - name: Chart Source
@@ -77935,4 +77999,4 @@ entries:
     urls:
     - https://github.com/taylord0ng/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-11-26T07:10:43.690216716Z"
+generated: "2025-11-27T01:09:46.513902924Z"
